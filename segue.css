@@ -1,0 +1,62 @@
+.corpo {
+    background: black;
+    border-radius: 15px;
+}
+
+.primeira {
+    background: black;
+    width: 100vw;
+    height: 50vh;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -20px;
+    border-radius: 15px;
+    
+}
+
+.vai,.vai1,.vai2,.quarta {
+    padding-top: 80px;
+}
+
+.segunda {
+    background: rgb(75, 67, 67);
+    width: 50vw;
+    height: 25vh;
+    font-size: 30px;
+    color: rgb(248, 249, 249);
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.terceira {
+    background: rgb(133, 27, 27);
+    width: 50vw;
+    height: 25vh;
+    font-size: 30px;
+    color: rgb(243, 245, 244);
+    margin-left: 744px;
+    margin-top: -207px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.quarta {
+    background: black;
+    width: 100vw;
+    height: 10vh;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+
+}
+#botão{
+    border-radius: 15px;
+    border: 2px;
+    border-color: aqua; 
+    background: blue;
+    font-size: 10px;
+
+}

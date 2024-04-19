@@ -1,0 +1,65 @@
+*{box-sizing: border-box;}
+#base0{
+    margin: 2% 4%;
+}
+#base1{
+    width: 80vw;
+    height: 10vh;
+    }
+.espaço,.espaço1{
+    font-size: 20px;
+    font: bolder;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:rgb(138, 137, 137);
+    cursor: pointer;
+}
+.botão1{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    padding-top: 5px;
+    background: rgb(144, 0, 255);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color:#f2efef 
+}
+#base2{   
+    margin-left: 750px;
+    margin-top: 20px;
+}
+.principal{
+    font-size: 40px;
+    color:rgb(138, 137, 137);
+}
+.secundário{
+    font-size: 25px;
+    color:rgb(138, 137, 137);
+    padding-top: -5px;    
+}
+div{
+    color:rgb(138, 137, 137)
+}
+.botão2{
+    width: 100px;
+    height: 30px;
+    margin-left: 6px;
+    margin-top: 10px;
+    padding-top: 5px;
+    background: rgb(191, 255, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color:#0a0a0a
+}
+#base4{
+    margin-top: -350px;
+    margin-left: 60px;
+}
+.Gallardo{
+    width: 600px;
+    height: 400px;
+}
+
+

@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-top: 22px;
+    margin-left: 76px;
+
+
+}
+
+.Top {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgba(152, 157, 156, 1);
+    margin-right: 23px;
+    cursor: pointer;
+    text-shadow: 5px 5px 10px #5d5d5f;
+
+}
+
+.login {
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 20.5px;
+    background-color: rgba(102, 90, 225, 1);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    text-shadow: 2px 2px 5px white;
+
+}
+
+main {
+    display: inline-block;
+
+}
+
+img {
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    padding: 115px 0px 0px 110px;
+
+}
+
+section {
+    display: inline-block;
+    margin: 0px 0px 0px 86px;
+    position: fixed;
+    top: 150px;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: rgba(81, 81, 81, 1);
+    text-shadow: 5px 5px 10px #000055;
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: rgba(81, 81, 81, 1);
+    text-shadow: 5px 5px 10px #000055;
+
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgba(132, 132, 132, 1);
+    margin-top: 32px;
+    margin-bottom: 65px;
+    text-shadow: 5px 5px 10px #5d5d5f;
+
+}
+
+.explore {
+    width: 239px;
+    height: 64px;
+    border: none;
+    border-radius: 20.5px;
+    background-color: rgba(173, 255, 0, 1);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+@media screen and (max-width: 870px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+
+    main {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    section {
+        position: static;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    img {
+        display: block;
+        width: 377px;
+        height: 448px;
+        position: relative;
+        top: 4px;
+        right: 22px;
+        bottom: 0px;
+        left: -54px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60.96px;
+        color: rgba(81, 81, 81, 1);
+        text-shadow: 5px 5px 10px #000055;
+        padding: 24px 63px 7px 63px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36.57px;
+        color: rgba(81, 81, 81, 1);
+        text-shadow: 5px 5px 10px #000055;
+        padding: 7px 63px 17px 77px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .explore {
+        width: 239px;
+        height: 64px;
+        border: none;
+        border-radius: 20.5px;
+        background-color: rgba(173, 255, 0, 1);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34.13px;
+        color: rgba(0, 0, 0, 1);
+        cursor: pointer;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin: 0px 75px 133px 75px;
+
+    }
+
+
+}
